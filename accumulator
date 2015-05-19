@@ -1,0 +1,14 @@
+def main():
+
+    numItem= input ("How many items do you have today?")
+
+    total= 0
+
+    for i in range (numItem):
+
+       price=input ("what is the price of this item?")
+       total= total+price
+
+    print "your total is",total
+
+main()

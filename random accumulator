@@ -1,0 +1,16 @@
+def main():
+
+    members= input ("how many members are there?")
+
+    total=0
+
+    for i in range (members):
+        name= input ("who is the new member?")
+
+        total= name
+
+    print total
+
+main()
+        
+    

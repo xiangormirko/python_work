@@ -1,0 +1,10 @@
+def main():
+    a=5
+    b=10
+    quotient=float(a)/float(b)
+    print quotient
+
+    remainder=a % b
+    print remainder
+
+main()

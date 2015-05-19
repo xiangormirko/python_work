@@ -1,0 +1,47 @@
+<html>
+<head>
+<title> HTML Forms Example</title>
+</head>
+
+
+<body>
+
+<h1>HTML Forms<h1>
+
+<h2> A Google Search From </h2>
+
+<form action="http://www.google.com/search">
+<input type="text" width=100 name="q"><br>
+<input type="submit" value="Google Search">
+
+</form>
+
+<hr>
+
+<h2> A Contact Form </h2>
+<form action="http://cs-webapps.bu.edu/util/formmailer.py">
+<label>First Name:</label>
+<input type="text" name="firstname"><br>
+<label>Last Name:</label>
+<input type="text" name="lastname"><br>
+
+What kind of vehicle do you have? Select all that apply:<br>
+<input type="checkbox" name="vehicle" value="Car"><label>Car</label><br>
+<input type="checkbox" name="vehicle" value="Bicycle"><label>Bicycle</label><br>
+<input type="checkbox" name="vehicle" value="Motrocycle"><label>Motorcycle</label><br>
+<input type="checkbox" name="vehicle" value="Skateboard"><label>Skateboard</label><br>
+<br>
+What is your year in college?
+<input type="radio" name="classyear" value="Freshman"><label>Freshman</label><br>
+<input type="radio" name="classyear" value="Sophomore"><label>Sophomore</label><br>
+<input type="radio" name="classyear" value="Junior"><label>Junior</label><br>
+<input type="radio" name="classyear" value="Senior"><label>Senior</label><br>
+<input type="radio" name="classyear" value="Super Senior"><label>Super Senior</label><br>
+
+
+<input type="hidden" name="mailto" value="xiang@bu.edu">
+<input type="submit" value="submit">
+</form>
+
+</body>
+</html>

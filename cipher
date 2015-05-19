@@ -1,0 +1,21 @@
+#File: caesarcipher01.py
+#Author: Mirko(xiang@bu.edu)
+#Description:
+#Assignment: A07
+#Date: 09/24/13
+
+def main():
+
+
+      string = raw_input("Please enter your phrase:")
+      x=input("Enter the key with a + or - sign:")
+      phrase=string.upper()
+      
+ 
+      for ch in phrase:
+          num= (((ord(ch)-65)+x)%26)+65
+          print chr(num),
+          
+       
+main()
+        
